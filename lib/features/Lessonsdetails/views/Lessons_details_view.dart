@@ -33,7 +33,7 @@ class LessonsDetailsView extends StatelessWidget {
               SizedBox(height: 16.h,),
               Text('وصف الدرس', style: AppStyles.textStyle16w700T),
               SizedBox(height: 9.h,),
-              Text('يوضع هنا وصف الاختبار والذي عادة ما يتكون من عدة اسطر كهذا المثال. يوضع هنا وصف الاختبار والذي عادة ما يتكون من عدة اسطر. يوضع هنا وصف الاختبار والذي عادة ما يتكون من عدة اسطر . '
+              Text('يوضع هنا وصف الاختبار والذي عادة ما يتكون من عدة اسطر كهذا المثال. يوضع هنا وصف الاختبار والذي عادة ما يتكون من عدة اسطر. يوضع هنا وصف الاختبار والذي عادة ما يتكون من عدة اسطر'
                 ,style:AppStyles.textStyle14w400FF.copyWith(
                   color: AppColors.kgray,
                   height: 1.7.h,
