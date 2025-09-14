@@ -1,4 +1,6 @@
+import 'package:eazy_app/core/utils/App_icons.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 void main() {
   runApp(const MyApp());
@@ -104,6 +106,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+             IconButton(
+               onPressed: (){},
+                 icon: SvgPicture.asset(AppIcons.cameraIcon,width: 25,height: 100,color: Colors.amber,)),
             const Text('You have pushed the button this many times:'),
             Text(
               '$_counter',
