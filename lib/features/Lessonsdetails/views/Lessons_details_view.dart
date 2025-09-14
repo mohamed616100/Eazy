@@ -9,7 +9,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 class LessonsDetailsView extends StatelessWidget {
   const LessonsDetailsView({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
