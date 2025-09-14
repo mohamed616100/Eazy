@@ -33,6 +33,7 @@ abstract class AppIcons {
   static const String deleteIcon='${_iconPath}delete.svg';
   static const String writeIcon='${_iconPath}write.svg';
   static const String cameraIcon='${_iconPath}camera.svg';
+  static const String close='${_iconPath}close.svg';
 
 
 
