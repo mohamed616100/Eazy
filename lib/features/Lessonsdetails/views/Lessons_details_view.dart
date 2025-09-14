@@ -42,10 +42,10 @@ class LessonsDetailsView extends StatelessWidget {
               SizedBox(height: 22.h,),
               Text('شرح الفرق بين a و an و the بالتفصيل',
                 style: AppStyles.textStyle14w700FF.copyWith(
-                  color: AppColors.kplue
-                ),
-              )
-              
+                  color: AppColors.kplue,
+
+                ),)
+
 
 
             ],

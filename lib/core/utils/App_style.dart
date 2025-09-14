@@ -46,6 +46,7 @@ abstract class AppStyles {
     fontSize: 14.sp,
     fontWeight: FontWeight.w700,
     fontFamily: 'FF Shamel Family',
+    fontFamilyFallback: ['Roboto']
   );
   static final textStyle15w400 = TextStyle(
     fontSize: 15.sp,

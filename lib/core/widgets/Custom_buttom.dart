@@ -2,13 +2,14 @@ import 'package:eazy_app/core/utils/App_color.dart';
 import 'package:eazy_app/core/utils/App_style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-
 class CustomBtn extends StatelessWidget {
-  const CustomBtn({super.key,
+  const CustomBtn({
+    super.key,
     required this.text,
-    required this.onPressed, required this.width, required this.height});
-
+    required this.onPressed,
+    required this.width,
+    required this.height
+  });
   final String text;
   final double width;
   final double height;
