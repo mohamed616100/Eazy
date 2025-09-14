@@ -1,9 +1,10 @@
-import 'package:eazy_app/core/utils/App_color.dart';
-import 'package:eazy_app/core/utils/App_icons.dart';
-import 'package:eazy_app/core/utils/App_paddings.dart';
-import 'package:eazy_app/core/utils/App_style.dart';
-import 'package:eazy_app/core/widgets/Custom_app_bar.dart';
-import 'package:eazy_app/core/widgets/Custom_svg.dart';
+
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appIcons.dart';
+import 'package:eazy_app/core/utils/appPaddings.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
+import 'package:eazy_app/core/widgets/customAppBar.dart';
+import 'package:eazy_app/core/widgets/customSvg.dart';
 import 'package:eazy_app/features/Lessons/Views/widgets/image_Start_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -12,7 +13,7 @@ class LessonsDetailsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.kwhgit,
+      backgroundColor: AppColors.white,
       body: Padding(
         padding:AppPaddings.mainPadding,
         child: SingleChildScrollView(
@@ -26,7 +27,9 @@ class LessonsDetailsView extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  CustomSvg(path: AppIcons.saveIcon, width: 20.4.w, height: 23.h, color: AppColors.kgray),
+                  CustomSvg(path: AppIcons.saveIcon, width: 20.4.w,
+                      height: 23.h, color: AppColors.gray
+                  ),
                   Text('الفرق بين{}', style: AppStyles.textStyle20w400FF),
                 ],
               ),
@@ -35,17 +38,15 @@ class LessonsDetailsView extends StatelessWidget {
               SizedBox(height: 9.h,),
               Text('يوضع هنا وصف الاختبار والذي عادة ما يتكون من عدة اسطر كهذا المثال. يوضع هنا وصف الاختبار والذي عادة ما يتكون من عدة اسطر. يوضع هنا وصف الاختبار والذي عادة ما يتكون من عدة اسطر'
                 ,style:AppStyles.textStyle14w400FF.copyWith(
-                  color: AppColors.kgray,
+                  color: AppColors.gray,
                   height: 1.7.h,
                 ),),
               SizedBox(height: 22.h,),
               Text('شرح الفرق بين a و an و the بالتفصيل',
                 style: AppStyles.textStyle14w700FF.copyWith(
-                  color: AppColors.kplue,
+                  color: AppColors.blue,
 
                 ),)
-
-
 
             ],
           ),
