@@ -1,9 +1,10 @@
 import 'package:eazy_app/core/helper/my_navgator.dart';
-import 'package:eazy_app/core/utils/App_color.dart';
-import 'package:eazy_app/core/utils/App_paddings.dart';
-import 'package:eazy_app/core/utils/App_style.dart';
-import 'package:eazy_app/core/widgets/Custom_app_bar.dart';
-import 'package:eazy_app/core/widgets/Custom_buttom.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appPaddings.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
+import 'package:eazy_app/core/widgets/customAppBar.dart';
+import 'package:eazy_app/core/widgets/customButtom.dart';
+
 import 'package:eazy_app/features/Lessons/Views/widgets/describtion_list_view.dart';
 import 'package:eazy_app/features/Lessons/Views/widgets/description_widget.dart';
 import 'package:eazy_app/features/Lessons/Views/widgets/image_Start_widget.dart';
@@ -19,7 +20,7 @@ class LessonsView extends StatelessWidget {
     return BlocProvider(
       create: (context) => LessonsCubit(),
       child: Scaffold(
-        backgroundColor: AppColors.kwhgit,
+        backgroundColor: AppColors.white,
         body: Padding(
           padding: AppPaddings.mainPadding,
           child: CustomScrollView(
@@ -57,7 +58,7 @@ class LessonsView extends StatelessWidget {
                   DescriptionWidget(),
                   SizedBox(height: 16.h,),
                   Divider(
-                    color: AppColors.kgray,
+                    color: AppColors.gray,
                     thickness: 1.h,
                   ),
                   SizedBox(height: 9.h,),

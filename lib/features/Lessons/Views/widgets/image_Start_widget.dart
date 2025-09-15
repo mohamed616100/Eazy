@@ -1,7 +1,7 @@
-import 'package:eazy_app/core/utils/App_color.dart';
-import 'package:eazy_app/core/utils/App_images.dart';
-import 'package:eazy_app/core/utils/App_style.dart';
-import 'package:eazy_app/core/widgets/Custom_buttom.dart';
+
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appImages.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 class ImageStartWidget extends StatelessWidget {
@@ -28,7 +28,7 @@ class ImageStartWidget extends StatelessWidget {
               left: 20.w,
               top: 65.86.h,
               child: Text('Grammer',style: AppStyles.textStyleforte40035.copyWith(
-                color: AppColors.kwhgit,
+                color: AppColors.white,
               ),)),
           Buttom??const SizedBox(),
         ],

@@ -1,13 +1,13 @@
 import 'package:eazy_app/core/helper/my_navgator.dart';
-import 'package:eazy_app/core/utils/App_color.dart';
-import 'package:eazy_app/core/utils/App_icons.dart';
-import 'package:eazy_app/core/utils/App_images.dart';
-import 'package:eazy_app/core/utils/App_style.dart';
-import 'package:eazy_app/core/widgets/Custom_svg.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appIcons.dart';
+import 'package:eazy_app/core/utils/appImages.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
+import 'package:eazy_app/core/widgets/customSvg.dart';
 import 'package:eazy_app/features/Lessons/data/models/demo_data.dart';
 import 'package:eazy_app/features/Lessons/manager/lesson_cubit/cubit.dart';
 import 'package:eazy_app/features/Lessons/manager/lesson_cubit/states.dart';
-import 'package:eazy_app/features/Upgrade_and_subscribe/views/Upgrade_View.dart';
+import 'package:eazy_app/features/Upgrade_and_subscribe/views/upgrade_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -23,7 +23,7 @@ class LessonsItem extends StatelessWidget {
             path: AppIcons.lock_open,
             width: 26.w,
             height: 26.h,
-            color: AppColors.Kiconlocal,
+            color: AppColors.iconlocal,
       );
     } else if (data.subScription) {
       // لو محتاج اشتراك
@@ -34,7 +34,7 @@ class LessonsItem extends StatelessWidget {
           width: 87.w,
           height: 26.55.h,
           decoration: BoxDecoration(
-            color: AppColors.KiconSave,
+            color: AppColors.iconSave,
             borderRadius: BorderRadius.circular(5.23.r),
           ),
           child: Row(
@@ -42,13 +42,13 @@ class LessonsItem extends StatelessWidget {
             children: [
               CustomSvg(
                 path: AppIcons.lock_open,
-                color: AppColors.kwhgit,
+                color: AppColors.white,
               ),
               SizedBox(width: 4.w),
               Text(
                 'اشترك',
                 style: AppStyles.textStyle12w400FF.copyWith(
-                  color: AppColors.kwhgit,
+                  color: AppColors.white,
                 ),
               ),
             ],
@@ -122,7 +122,7 @@ class LessonsItem extends StatelessWidget {
         width: 355.w,
         height: 103.h,
         decoration: BoxDecoration(
-          color: AppColors.kwhite2,
+          color: AppColors.white2,
           borderRadius: BorderRadius.circular(20.r),
         ),
         child: Column(
@@ -137,7 +137,7 @@ class LessonsItem extends StatelessWidget {
                     },
                         icon: CustomSvg(
                           path: AppIcons.saveIcon,
-                          color: data.isSave ? AppColors.KiconSave : AppColors.kgray,
+                          color: data.isSave ? AppColors.iconSave : AppColors.gray,
                           width: 24.w,
                           height: 24.h,
                         )),
@@ -145,7 +145,7 @@ class LessonsItem extends StatelessWidget {
                     Spacer(),
                     Text(
                        '${data.title}', style: AppStyles.textStyle12w400FF.copyWith(
-                      color: AppColors.kgray,
+                      color: AppColors.gray,
                     ),),
                   ],
                 );

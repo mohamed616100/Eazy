@@ -1,8 +1,6 @@
-import 'package:eazy_app/core/utils/App_icons.dart';
 import 'package:eazy_app/features/Lessons/Views/Lessons_View.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 void main() {
   runApp(const MyApp());
