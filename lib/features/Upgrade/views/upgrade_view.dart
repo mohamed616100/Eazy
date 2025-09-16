@@ -4,9 +4,9 @@ import 'package:eazy_app/core/utils/appPaddings.dart';
 import 'package:eazy_app/core/utils/appStyles.dart';
 import 'package:eazy_app/core/widgets/customButtom.dart';
 import 'package:eazy_app/core/widgets/customSvg.dart';
-import 'package:eazy_app/features/Upgrade_and_subscribe/views/widgets/feature_description.dart';
-import 'package:eazy_app/features/Upgrade_and_subscribe/views/widgets/salary_widget.dart';
-import 'package:eazy_app/features/Upgrade_and_subscribe/views/widgets/stack_widget.dart';
+import 'package:eazy_app/features/Upgrade/views/widgets/feature_description.dart';
+import 'package:eazy_app/features/Upgrade/views/widgets/salary_widget.dart';
+import 'package:eazy_app/features/Upgrade/views/widgets/stack_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 class UpgradeView extends StatelessWidget {

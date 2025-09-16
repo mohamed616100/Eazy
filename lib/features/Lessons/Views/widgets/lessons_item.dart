@@ -7,7 +7,7 @@ import 'package:eazy_app/core/widgets/customSvg.dart';
 import 'package:eazy_app/features/Lessons/data/models/demo_data.dart';
 import 'package:eazy_app/features/Lessons/manager/lesson_cubit/cubit.dart';
 import 'package:eazy_app/features/Lessons/manager/lesson_cubit/states.dart';
-import 'package:eazy_app/features/Upgrade_and_subscribe/views/upgrade_view.dart';
+import 'package:eazy_app/features/Upgrade/views/upgrade_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -26,7 +26,6 @@ class LessonsItem extends StatelessWidget {
             color: AppColors.iconlocal,
       );
     } else if (data.subScription) {
-      // لو محتاج اشتراك
       return GestureDetector(
         onTap: () {},
         child: Container(
@@ -60,6 +59,7 @@ class LessonsItem extends StatelessWidget {
       return const SizedBox.shrink();
     }
   }
+
   void showLockedDialog(BuildContext context) {
     showDialog(
       context: context,
@@ -114,7 +114,6 @@ class LessonsItem extends StatelessWidget {
           MyNavigator.goTo(context, UpgradeView(),
               type: NavigatorType.push);
         }else{
-          print("object");
         }
       },
       child: Container(
@@ -144,7 +143,7 @@ class LessonsItem extends StatelessWidget {
                     buildLessonAction(data,context),
                     Spacer(),
                     Text(
-                       '${data.title}', style: AppStyles.textStyle12w400FF.copyWith(
+                       data.title, style: AppStyles.textStyle12w400FF.copyWith(
                       color: AppColors.gray,
                     ),),
                   ],
@@ -154,7 +153,7 @@ class LessonsItem extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                Text('${data.description}', style: AppStyles.textStyle14w700FF,)
+                Text(data.description, style: AppStyles.textStyle14w700FF,)
               ],
             )
           ],

@@ -25,5 +25,6 @@ abstract class AppColors {
   static const signOut = Color(0xffABADAC); //تسجيل الخروج
   static const iconCamare = Color(0xff2A72AD);
   static const colorUpgrade = Color(0xffFDA958);
+  static const gray5 = Color(0xffE5E5E5);
 
 }
