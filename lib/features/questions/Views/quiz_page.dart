@@ -107,14 +107,14 @@ class _QuizPageState extends State<QuizPage> {
                             ],
                           ),
                         ),
-                        const SizedBox(height: 24),
+                        SizedBox(height: 24.h),
                         Text(
                           question.question,
                           style: AppStyles.textStyle20w400FF,
                           textAlign: TextAlign.right,
                           textDirection: TextDirection.rtl,
                         ),
-                        const SizedBox(height: 24),
+                       SizedBox(height: 24.h),
                         ...List.generate(question.answers.length, (answerIndex) {
                           final answer = question.answers[answerIndex];
                           final isSelected = _selectedAnswer == answerIndex;

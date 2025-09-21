@@ -6,6 +6,7 @@ import 'package:eazy_app/core/widgets/customButtom.dart';
 import 'package:eazy_app/core/widgets/customSvg.dart';
 import 'package:eazy_app/features/Lessons/Views/Lessons_View.dart';
 import 'package:eazy_app/features/result/views/widgets/continer_result.dart';
+import 'package:eazy_app/features/view_result/views/views_result.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 class ResultView extends StatelessWidget {
@@ -98,7 +99,8 @@ class ResultView extends StatelessWidget {
                           Spacer(),
                           GestureDetector(
                             onTap: (){
-                              print('object');
+                              MyNavigator.goTo(context, view_result()
+                                  ,type: NavigatorType.push);
                             },
                             child: Row(
                               children: [

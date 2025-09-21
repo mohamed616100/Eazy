@@ -18,7 +18,6 @@ class LessonsItem extends StatelessWidget {
 
   Widget buildLessonAction(datalessons data,BuildContext context) {
     if (data.isblock) {
-      // لو مقفول
       return CustomSvg(
             path: AppIcons.lock_open,
             width: 26.w,
