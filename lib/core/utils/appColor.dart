@@ -19,6 +19,7 @@ abstract class AppColors {
   static const eyePass = Color(0xffC9CECF); //this color eye password
   static const iconSave = Color(0xffFE9F45); // icons save in home
   static const iconlocal = Color(0xffC3C3C3); //القفل اللي ف home
+  static const KeyePass= Color(0xffC9CECF);//this color eye password
   static const bottomback = Color(0xffAFB6B7); // bottom (تراجع)
   static const firstQus = Color(0xff8C8C8C); //first question
   static const red2 = Color(0xffC63737); //results screen
@@ -26,5 +27,14 @@ abstract class AppColors {
   static const iconCamare = Color(0xff2A72AD);
   static const colorUpgrade = Color(0xffFDA958);
   static const gray5 = Color(0xffE5E5E5);
+  static const textHomeSection = Color(0xFF011526);
+  static const grey6 = Color(0xffE6E9EA);
+  static const searchBackground = Color(0xFFF3F3F3);
+  static const orangeHome = Color(0xFFF9BC66);
+  static final grayHome = iconCamare.withValues(alpha: .3);
+  static const containerHome = Color(0xFFF9FAFA);
+  static const progressHome = Color(0xFFE8E8E8);
+  static const notificationName = Color(0xFF1A201D);
+
 
 }

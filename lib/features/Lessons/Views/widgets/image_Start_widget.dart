@@ -1,4 +1,3 @@
-
 import 'package:eazy_app/core/utils/appColor.dart';
 import 'package:eazy_app/core/utils/appImages.dart';
 import 'package:eazy_app/core/utils/appStyles.dart';
@@ -27,7 +26,7 @@ class ImageStartWidget extends StatelessWidget {
           Positioned(
               left: 20.w,
               top: 65.86.h,
-              child: Text('Grammer',style: AppStyles.textStyleforte40035.copyWith(
+              child: Text('Grammer',style: AppStyles.textStyle35w400F.copyWith(
                 color: AppColors.white,
               ),)),
           Buttom??const SizedBox(),

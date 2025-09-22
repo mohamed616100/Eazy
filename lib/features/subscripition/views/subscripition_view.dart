@@ -1,3 +1,4 @@
+import 'package:eazy_app/core/helper/my_navgator.dart';
 import 'package:eazy_app/core/utils/appColor.dart';
 import 'package:eazy_app/core/utils/appPaddings.dart';
 import 'package:eazy_app/core/utils/appStyles.dart';
@@ -86,7 +87,9 @@ class SubscripitionView extends StatelessWidget {
                     padding: EdgeInsets.symmetric(horizontal: 21.w),
                     child: CustomBtn(
                       text: 'تجديد الاشتراك',
-                      onPressed: (){},
+                      onPressed: (){
+                        MyNavigator.goBack(context);
+                      },
                       width: double.infinity,
                       height:54.h,
                       colorbut: AppColors.gray5,

@@ -31,7 +31,7 @@ class LessonsView extends StatelessWidget {
                 children: [
                   CustomAppBar(
                     onPressed: () {
-                      print("object");
+                     MyNavigator.goBack(context);
                     },
                   ),
                   SizedBox(height: 13.h,),

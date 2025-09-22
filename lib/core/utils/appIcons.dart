@@ -38,6 +38,10 @@ abstract class AppIcons {
   static const String rectangle2='${_iconPath}Rectangle2.svg';
   static const String rectangle3='${_iconPath}Rectangle3.svg';
   static const String checkIcon='${_iconPath}Vector 788.svg';
+  static const String InstagramLogo='${_iconPath}instagram.svg';
+  static const String FaceBookLogo='${_iconPath}facebook.svg';
+  static const String TwitterLogo='${_iconPath}twitter.svg';
+  static const String WhatsAppLogo='${_iconPath}whatsapp.svg';
 
 
 

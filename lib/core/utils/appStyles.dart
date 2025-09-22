@@ -27,6 +27,16 @@ abstract class AppStyles {
       fontWeight: FontWeight.w700,
       fontFamily: 'FF Shamel Family',
       fontFamilyFallback: const ['Roboto']);
+  static final textStyle13_19w400 = TextStyle(
+      fontSize: 13.19.sp,
+      fontWeight: FontWeight.w400,
+      fontFamily: 'FF Shamel Family',
+      fontFamilyFallback: const ['Roboto']);
+  static final textStyle16_49w400 = TextStyle(
+      fontSize: 16.49.sp,
+      fontWeight: FontWeight.w400,
+      fontFamily: 'FF Shamel Family',
+      fontFamilyFallback: const ['Roboto']);
   static final textStyle14w400C = TextStyle(
       fontSize: 14.sp,
       fontWeight: FontWeight.w400,
@@ -92,19 +102,34 @@ abstract class AppStyles {
       fontWeight: FontWeight.w400,
       fontFamily: 'FF Shamel Family',
       fontFamilyFallback: const ['Roboto']);
+  static final textStyle23_6w400 = TextStyle(
+      fontSize: 23.6.sp,
+      fontWeight: FontWeight.w400,
+      fontFamily: 'Finger Paint');
   static final textStyle26w400 = TextStyle(
       fontSize: 26.sp,
       fontWeight: FontWeight.w400,
       fontFamily: 'FF Shamel Family',
+      fontFamilyFallback: const ['Roboto']);
+  static final textStyle28_58w400 = TextStyle(
+      fontSize: 28.58.sp,
+      fontWeight: FontWeight.w400,
+      fontFamily: 'FF Shamel Family',
+      fontFamilyFallback: const ['Roboto']);
+  static final textStyle35w400F = TextStyle(
+      fontSize: 35.sp,
+      fontWeight: FontWeight.w400,
+      fontFamily: 'FORTE',
       fontFamilyFallback: const ['Roboto']);
   static final textStyle50w400 = TextStyle(
       fontSize: 50.sp,
       fontWeight: FontWeight.w400,
       fontFamily: 'FF Shamel Family',
       fontFamilyFallback: const ['Roboto']);
-  static final textStyleforte40035 = TextStyle(
-      fontSize: 35.sp,
-      fontWeight: FontWeight.w400,
-      fontFamily: 'FORTE',
-      fontFamilyFallback: const ['Roboto']);
+
+  static final textStyleFingerPaint114 = TextStyle(
+    fontSize: 114.67.sp,
+    fontWeight: FontWeight.w400,
+    fontFamily: 'Finger Paint',
+    height: 1.5,);
 }

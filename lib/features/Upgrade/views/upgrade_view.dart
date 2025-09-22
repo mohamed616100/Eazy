@@ -1,3 +1,4 @@
+import 'package:eazy_app/core/helper/my_navgator.dart';
 import 'package:eazy_app/core/utils/appColor.dart';
 import 'package:eazy_app/core/utils/appIcons.dart';
 import 'package:eazy_app/core/utils/appPaddings.dart';
@@ -7,6 +8,7 @@ import 'package:eazy_app/core/widgets/customSvg.dart';
 import 'package:eazy_app/features/Upgrade/views/widgets/feature_description.dart';
 import 'package:eazy_app/features/Upgrade/views/widgets/salary_widget.dart';
 import 'package:eazy_app/features/Upgrade/views/widgets/stack_widget.dart';
+import 'package:eazy_app/features/subscripition/views/subscripition_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 class UpgradeView extends StatelessWidget {
@@ -76,7 +78,9 @@ class UpgradeView extends StatelessWidget {
                     padding: EdgeInsets.symmetric(horizontal: 21.w),
                     child: CustomBtn(
                         text: 'اشتراك',
-                        onPressed: (){},
+                        onPressed: (){
+                          MyNavigator.goTo(context, SubscripitionView(),type: NavigatorType.push);
+                        },
                         width: double.infinity,
                       height:54.h,
                       colorbut: Color(0xFFF5E6D3),
